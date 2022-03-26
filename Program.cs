@@ -10,6 +10,7 @@ namespace modul5_1302200049
     {
         static void Main(string[] args)
         {
+            SayaTubeVideo a = new SayaTubeVideo("Design By Contract – [Andruw darma]");
             a.PrintVideoDetails();
             a.IncreasePlayCount(1);
             a.PrintVideoDetails();
